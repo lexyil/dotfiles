@@ -1,0 +1,40 @@
+#------------------#
+# main config file #
+#------------------#
+
+# ---references---
+include config.d/variables.conf
+include config.d/outputs/*.conf
+include config.d/inputs/*.conf
+include config.d/appearance.conf
+include config.d/keybinds/*.conf
+include config.d/windows.conf
+include config.d/bar.conf
+include config.d/autostart.conf
+include config.d/idle.conf
+
+
+
+# ---tree---
+
+# ~/.config/sway/
+# ├── config                  # main file, sources everything via `include`
+# └── config.d/
+    # ├── variables.conf
+    # ├── outputs/
+    # │   ├── laptop.conf
+    # │   └── external-monitor.conf
+    # ├── inputs/
+    # │   ├── keyboard.conf
+    # │   └── touchpad.conf
+    # ├── appearance.conf      # gaps, borders, colors/theme
+    # ├── keybinds/
+    # │   ├── core.conf        # mod, kill, reload, exit
+    # │   ├── movement.conf     # focus, move windows
+    # │   ├── layout.conf      # split, fullscreen, floating
+    # │   ├── workspaces.conf
+    # │   └── media.conf       # volume, brightness, screenshot
+    # ├── windows.conf          # for_window rules, assigns
+    # ├── bar.conf
+    # ├── autostart.conf
+    # └── idle.conf
