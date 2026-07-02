@@ -1,5 +1,0 @@
-2026-07-02 16:35:34.400 [info] Started local extension host with pid 3264.
-2026-07-02 16:35:34.868 [info] ComputeTargetPlatform: linux-x64
-2026-07-02 16:35:37.562 [info] [perf] Render performance baseline is 49ms
-2026-07-02 16:35:37.865 [error] Unable to load file:///home/lexy/.vscode-oss/extensions/monochrome_theme/themes/monochrome_theme.json: Unable to read file '/home/lexy/.vscode-oss/extensions/monochrome_theme/themes/monochrome_theme.json' (Error: Unable to resolve nonexistent file '/home/lexy/.vscode-oss/extensions/monochrome_theme/themes/monochrome_theme.json'): Error: Unable to load file:///home/lexy/.vscode-oss/extensions/monochrome_theme/themes/monochrome_theme.json: Unable to read file '/home/lexy/.vscode-oss/extensions/monochrome_theme/themes/monochrome_theme.json' (Error: Unable to resolve nonexistent file '/home/lexy/.vscode-oss/extensions/monochrome_theme/themes/monochrome_theme.json')
-    at KKe.X (vscode-file://vscode-app/usr/lib/code-oss/resources/app/out/vs/workbench/workbench.desktop.main.js:1857:7013)
