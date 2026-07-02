@@ -1,40 +1,54 @@
 {
-  "name": "My Theme",
+  "name": "Monochrome",
   "type": "dark",
   "colors": {
     "editor.background": "#111111",
     "editor.foreground": "#F7F7F7",
+    "editorCursor.foreground": "#4A7FB5",
     "editorLineNumber.foreground": "#545454",
     "editorLineNumber.activeForeground": "#B8B8B8",
-    "editorCursor.foreground": "#4A7FB5",
     "editor.selectionBackground": "#343434",
     "editor.selectionHighlightBackground": "#282828",
     "editor.lineHighlightBackground": "#181818",
     "editorIndentGuide.background": "#282828",
     "editorIndentGuide.activeBackground": "#424242",
+    "focusBorder": "#4A7FB5",
 
     "activityBar.background": "#111111",
     "activityBar.foreground": "#E5E5E5",
+    "activityBar.inactiveForeground": "#545454",
+    "activityBar.border": "#282828",
+    "activityBar.activeBorder": "#4A7FB5",
     "activityBarBadge.background": "#4A7FB5",
+
     "sideBar.background": "#111111",
     "sideBar.foreground": "#B8B8B8",
+    "sideBar.border": "#282828",
+    "sideBarTitle.foreground": "#F7F7F7",
     "sideBarSectionHeader.background": "#181818",
+    "sideBarSectionHeader.foreground": "#E5E5E5",
+    "sideBarSectionHeader.border": "#282828",
 
-    "statusBar.background": "#181818",
-    "statusBar.foreground": "#E5E5E5",
-    "statusBar.debuggingBackground": "#6FA0D0",
+    "editorGroupHeader.tabsBackground": "#111111",
+    "editorGroupHeader.tabsBorder": "#282828",
+    "tab.activeBackground": "#1E1E1E",
+    "tab.inactiveBackground": "#181818",
+    "tab.unfocusedActiveBackground": "#181818",
+    "tab.hoverBackground": "#343434",
+    "tab.activeForeground": "#F7F7F7",
+    "tab.inactiveForeground": "#B8B8B8",
+    "tab.unfocusedActiveForeground": "#E5E5E5",
+    "tab.border": "#111111",
+    "tab.activeBorderTop": "#4A7FB5",
 
     "titleBar.activeBackground": "#111111",
     "titleBar.activeForeground": "#F7F7F7",
     "titleBar.inactiveBackground": "#111111",
     "titleBar.inactiveForeground": "#545454",
 
-    "tab.activeBackground": "#1E1E1E",
-    "tab.inactiveBackground": "#181818",
-    "tab.activeForeground": "#F7F7F7",
-    "tab.inactiveForeground": "#B8B8B8",
-    "tab.border": "#111111",
-    "tab.activeBorderTop": "#4A7FB5",
+    "statusBar.background": "#181818",
+    "statusBar.foreground": "#E5E5E5",
+    "statusBar.debuggingBackground": "#6FA0D0",
 
     "panel.background": "#181818",
     "panel.border": "#282828",
@@ -42,7 +56,6 @@
     "input.background": "#1E1E1E",
     "input.foreground": "#F7F7F7",
     "input.border": "#343434",
-    "focusBorder": "#4A7FB5",
 
     "list.activeSelectionBackground": "#282828",
     "list.activeSelectionForeground": "#F7F7F7",
@@ -56,19 +69,45 @@
     "terminal.ansiBlue": "#4A7FB5",
     "terminal.ansiBrightBlue": "#6FA0D0",
 
-    "sideBarTitle.foreground": "#F7F7F7",
-    "sideBar.border": "#282828",
-    "sideBarSectionHeader.foreground": "#E5E5E5",
-    "sideBarSectionHeader.border": "#282828",
-
-    "activityBar.border": "#282828",
-    "activityBar.activeBorder": "#4A7FB5",
-    "activityBar.inactiveForeground": "#545454",
-
-    "tab.unfocusedActiveBackground": "#181818",
-    "tab.hoverBackground": "#343434",
-    "tab.unfocusedActiveForeground": "#E5E5E5",
-    "editorGroupHeader.tabsBackground": "#111111",
-    "editorGroupHeader.tabsBorder": "#282828"
-  }
+    "statusBar.noFolderBackground": "#181818",
+    "statusBar.noFolderForeground": "#E5E5E5"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#6B7A6B", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#8FA37A" }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": { "foreground": "#B58A5C" }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": { "foreground": "#8C7AAE" }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#6FA0D0" }
+    },
+    {
+      "scope": ["entity.name.class", "entity.name.type"],
+      "settings": { "foreground": "#B5A05C" }
+    },
+    {
+      "scope": ["variable"],
+      "settings": { "foreground": "#D0D0D0" }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": { "foreground": "#A87A8C" }
+    },
+    {
+      "scope": ["punctuation", "meta.brace"],
+      "settings": { "foreground": "#8A8A8A" }
+    }
+  ]
 }

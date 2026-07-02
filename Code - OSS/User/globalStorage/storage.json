@@ -46,7 +46,7 @@
             "sideBarBackground": "#111111",
             "sideBarBorder": "#282828",
             "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#68217a"
+            "statusBarNoFolderBackground": "#181818"
         },
         "layoutInfo": {
             "sideBarSide": "left",
