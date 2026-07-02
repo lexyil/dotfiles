@@ -1,0 +1,71 @@
+2026-07-02 16:46:28.267 [info] [main] Log level: Info
+2026-07-02 16:46:28.267 [info] [main] Validating found git in: "git"
+2026-07-02 16:46:28.267 [info] [main] Using git "2.54.0" from "git"
+2026-07-02 16:46:28.267 [info] [Model][doInitialScan] Initial repository scan started
+2026-07-02 16:46:28.267 [info] > git rev-parse --show-toplevel [7ms]
+2026-07-02 16:46:28.267 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2026-07-02 16:46:28.267 [info] [Model][openRepository] Opened repository (path): /home/lexy/.config
+2026-07-02 16:46:28.267 [info] [Model][openRepository] Opened repository (real path): /home/lexy/.config
+2026-07-02 16:46:28.267 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-07-02 16:46:28.268 [info] > git config --get commit.template [2ms]
+2026-07-02 16:46:28.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-07-02 16:46:28.298 [info] > git status -z -uall [10ms]
+2026-07-02 16:46:28.299 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-07-02 16:46:28.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2026-07-02 16:46:28.346 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2026-07-02 16:46:28.347 [warning] [Git][config] git config failed: Failed to execute git
+2026-07-02 16:46:28.351 [info] > git config --get commit.template [16ms]
+2026-07-02 16:46:28.355 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2026-07-02 16:46:28.395 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [34ms]
+2026-07-02 16:46:28.395 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-07-02 16:46:28.395 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-07-02 16:46:28.405 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2026-07-02 16:46:28.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2026-07-02 16:46:28.413 [info] > git diff --name-status -z --diff-filter=ADMR d56e0651cc14d67ed96861015ef50b9084a68891...refs/remotes/origin/main [2ms]
+2026-07-02 16:46:28.426 [info] > git status -z -uall [8ms]
+2026-07-02 16:46:28.428 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-07-02 16:46:28.572 [info] > git show --textconv :Code - OSS/Themes/monochrome_theme/monochrome_theme.json [7ms]
+2026-07-02 16:46:28.578 [info] > git ls-files --stage -- Code - OSS/Themes/monochrome_theme/monochrome_theme.json [7ms]
+2026-07-02 16:46:28.583 [info] > git hash-object -t tree /dev/null [5ms]
+2026-07-02 16:46:28.583 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lexy/.config/Code%20-%20OSS/Themes/monochrome_theme/monochrome_theme.json.git?%7B%22path%22%3A%22%2Fhome%2Flexy%2F.config%2FCode%20-%20OSS%2FThemes%2Fmonochrome_theme%2Fmonochrome_theme.json%22%2C%22ref%22%3A%22%22%7D
+2026-07-02 16:46:28.585 [info] > git hash-object -t tree /dev/null [2ms]
+2026-07-02 16:46:28.585 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lexy/.config/Code%20-%20OSS/Themes/monochrome_theme/monochrome_theme.json.git?%7B%22path%22%3A%22%2Fhome%2Flexy%2F.config%2FCode%20-%20OSS%2FThemes%2Fmonochrome_theme%2Fmonochrome_theme.json%22%2C%22ref%22%3A%22%22%7D
+2026-07-02 16:46:28.604 [info] > git blame --root --incremental 6c9b2d9a57cd16cb9c7466c071730b9503ef2184 -- Code - OSS/Themes/monochrome_theme/monochrome_theme.json [2ms]
+2026-07-02 16:46:28.604 [info] fatal: no such path Code - OSS/Themes/monochrome_theme/monochrome_theme.json in 6c9b2d9a57cd16cb9c7466c071730b9503ef2184
+2026-07-02 16:46:28.788 [info] > git check-ignore -v -z --stdin [3ms]
+2026-07-02 16:46:31.027 [info] > git config --get commit.template [6ms]
+2026-07-02 16:46:31.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-07-02 16:46:31.040 [info] > git status -z -uall [7ms]
+2026-07-02 16:46:31.041 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-07-02 16:46:54.616 [info] > git config --get commit.template [8ms]
+2026-07-02 16:46:54.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-07-02 16:46:54.636 [info] > git status -z -uall [10ms]
+2026-07-02 16:46:54.636 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-07-02 16:46:59.676 [info] > git config --get commit.template [19ms]
+2026-07-02 16:46:59.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-07-02 16:46:59.705 [info] > git status -z -uall [8ms]
+2026-07-02 16:46:59.706 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-07-02 16:47:04.726 [info] > git config --get commit.template [7ms]
+2026-07-02 16:47:04.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-07-02 16:47:04.741 [info] > git status -z -uall [6ms]
+2026-07-02 16:47:04.742 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-07-02 16:47:17.212 [info] > git config --get commit.template [4ms]
+2026-07-02 16:47:17.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-07-02 16:47:17.242 [info] > git status -z -uall [7ms]
+2026-07-02 16:47:17.243 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-07-02 16:47:25.324 [info] > git config --get commit.template [11ms]
+2026-07-02 16:47:25.325 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-07-02 16:47:25.338 [info] > git status -z -uall [6ms]
+2026-07-02 16:47:25.339 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-07-02 16:48:06.928 [info] > git config --get commit.template [11ms]
+2026-07-02 16:48:06.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-07-02 16:48:06.949 [info] > git status -z -uall [8ms]
+2026-07-02 16:48:06.951 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-07-02 16:48:11.962 [info] > git config --get commit.template [5ms]
+2026-07-02 16:48:11.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-07-02 16:48:11.972 [info] > git status -z -uall [6ms]
+2026-07-02 16:48:11.972 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-07-02 16:49:34.216 [info] > git config --get commit.template [14ms]
+2026-07-02 16:49:34.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-07-02 16:49:34.234 [info] > git status -z -uall [8ms]
+2026-07-02 16:49:34.235 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

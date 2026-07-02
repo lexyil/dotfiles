@@ -1,0 +1,62 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "2d9440f62f4706a0bbacf4f61bd980990244ec969565e60c10bf20879dd1f9a6",
+    "telemetry.devDeviceId": "326c4c1c-eeaa-479f-bcf9-dd170b8bb05b",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1781860809229"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1781860809229": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/lexy/.config/Code - OSS/Backups/1781860809229",
+            "uiState": {
+                "mode": 0,
+                "x": 2,
+                "y": 48,
+                "width": 1200,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#111111",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#111111",
+            "editorBackground": "#111111",
+            "titleBarBackground": "#111111",
+            "activityBarBackground": "#111111",
+            "activityBarBorder": "#282828",
+            "sideBarBackground": "#111111",
+            "sideBarBorder": "#282828",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

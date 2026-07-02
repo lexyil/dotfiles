@@ -1,0 +1,16 @@
+{
+  "name": "Monochrome",
+  "displayName": "Monochrome",
+  "version": "1.0.0",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monochrome",
+        "uiTheme": "vs-dark",
+        "path": "./monochrome_theme/monochrome_theme.json"
+      }
+    ]
+  }
+}

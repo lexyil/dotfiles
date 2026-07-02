@@ -1,0 +1,74 @@
+{
+  "name": "My Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#111111",
+    "editor.foreground": "#F7F7F7",
+    "editorLineNumber.foreground": "#545454",
+    "editorLineNumber.activeForeground": "#B8B8B8",
+    "editorCursor.foreground": "#4A7FB5",
+    "editor.selectionBackground": "#343434",
+    "editor.selectionHighlightBackground": "#282828",
+    "editor.lineHighlightBackground": "#181818",
+    "editorIndentGuide.background": "#282828",
+    "editorIndentGuide.activeBackground": "#424242",
+
+    "activityBar.background": "#111111",
+    "activityBar.foreground": "#E5E5E5",
+    "activityBarBadge.background": "#4A7FB5",
+    "sideBar.background": "#111111",
+    "sideBar.foreground": "#B8B8B8",
+    "sideBarSectionHeader.background": "#181818",
+
+    "statusBar.background": "#181818",
+    "statusBar.foreground": "#E5E5E5",
+    "statusBar.debuggingBackground": "#6FA0D0",
+
+    "titleBar.activeBackground": "#111111",
+    "titleBar.activeForeground": "#F7F7F7",
+    "titleBar.inactiveBackground": "#111111",
+    "titleBar.inactiveForeground": "#545454",
+
+    "tab.activeBackground": "#1E1E1E",
+    "tab.inactiveBackground": "#181818",
+    "tab.activeForeground": "#F7F7F7",
+    "tab.inactiveForeground": "#B8B8B8",
+    "tab.border": "#111111",
+    "tab.activeBorderTop": "#4A7FB5",
+
+    "panel.background": "#181818",
+    "panel.border": "#282828",
+
+    "input.background": "#1E1E1E",
+    "input.foreground": "#F7F7F7",
+    "input.border": "#343434",
+    "focusBorder": "#4A7FB5",
+
+    "list.activeSelectionBackground": "#282828",
+    "list.activeSelectionForeground": "#F7F7F7",
+    "list.hoverBackground": "#1E1E1E",
+
+    "badge.background": "#4A7FB5",
+    "badge.foreground": "#F7F7F7",
+
+    "terminal.background": "#111111",
+    "terminal.foreground": "#F7F7F7",
+    "terminal.ansiBlue": "#4A7FB5",
+    "terminal.ansiBrightBlue": "#6FA0D0",
+
+    "sideBarTitle.foreground": "#F7F7F7",
+    "sideBar.border": "#282828",
+    "sideBarSectionHeader.foreground": "#E5E5E5",
+    "sideBarSectionHeader.border": "#282828",
+
+    "activityBar.border": "#282828",
+    "activityBar.activeBorder": "#4A7FB5",
+    "activityBar.inactiveForeground": "#545454",
+
+    "tab.unfocusedActiveBackground": "#181818",
+    "tab.hoverBackground": "#343434",
+    "tab.unfocusedActiveForeground": "#E5E5E5",
+    "editorGroupHeader.tabsBackground": "#111111",
+    "editorGroupHeader.tabsBorder": "#282828"
+  }
+}

@@ -1,0 +1,5 @@
+vscode does not read themes from this location, this is merely storage
+
+to allow this theme to be selected, a link to ~/vscode-oss/extensions/ must be created with the following:
+
+ln -s ~/.config/Code\ -\ OSS/Themes ~/.vscode-oss/extensions
