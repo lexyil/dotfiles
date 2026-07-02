@@ -7,19 +7,33 @@
 }
 
 window#waybar {
-    background-color: #111111;
+    background-color: transparent;
     color: #F7F7F7;
 }
 
+#window {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
+    color:#F7F7F7;
+    background-color: #111111;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 2px;
     background-color: #111111;
     color: #B8B8B8;
 }
 
-#workspaces button.active {
-    background-color: #4A7FB5;
+#workspaces button.active, #workspaces button.focused{
     color: #F7F7F7;
+    border: 1px solid #F7F7F7;
 }
 
 #workspaces button.urgent {
