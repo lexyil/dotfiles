@@ -27,7 +27,7 @@
     "pulseaudio": {
         "format": "VOL: {volume}%",
         "format-muted": "VOL: muted",
-        "on-click": "pwvucontrol",
+        "on-click": "pavucontrol",
         "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
         "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
     },
