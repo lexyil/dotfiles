@@ -41,7 +41,7 @@ window#waybar.empty #window {
     color: #111111;
 }
 
-#pulseaudio, #backlight {
+#network, #pulseaudio, #backlight {
     padding: 0 10px;
     background-color: #111111;
     color: #F7F7F7;
@@ -56,12 +56,6 @@ window#waybar.empty #window {
 }
 
 #clock, #cpu, #memory, #battery {
-    padding: 0 10px;
-    background-color: #111111;
-    color: #F7F7F7;
-}
-
-#network, #pulseaudio, #backlight {
     padding: 0 10px;
     background-color: #111111;
     color: #F7F7F7;
