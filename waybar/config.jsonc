@@ -4,7 +4,15 @@
     "height": 24,
     "modules-left": ["sway/workspaces", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "custom/microphone", "backlight", "cpu", "memory", "battery"],
+    "modules-right": ["pulseaudio", "custom/microphone", "backlight", "network", "tray", "cpu", "memory", "battery"],
+
+    "network": {
+        "format-wifi": "WIFI: {signalStrength}%",
+        "format-ethernet": "ETH: {ipaddr}",
+        "format-disconnected": "WIFI: off",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "on-click": "nm-connection-editor"
+    },
 
     "sway/workspaces": {
         "format": "{name}",
@@ -35,5 +43,9 @@
         "format": "BRI: {percent}%",
         "on-scroll-down": "brightnessctl set 5%+",
         "on-scroll-up": "brightnessctl set 5%-"
+    },
+    "tray": {
+    "icon-size": 16,
+    "spacing": 8
     }
 }

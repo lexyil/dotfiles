@@ -60,3 +60,16 @@ window#waybar.empty #window {
     background-color: #111111;
     color: #F7F7F7;
 }
+
+#network, #pulseaudio, #backlight {
+    padding: 0 10px;
+    background-color: #111111;
+    color: #F7F7F7;
+}
+
+#tray {
+    padding: 0 10px;
+    margin-left: 10px;
+    background-color: #111111;
+    color: #F7F7F7;
+}
