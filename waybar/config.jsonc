@@ -4,7 +4,7 @@
     "height": 24,
     "modules-left": ["sway/workspaces", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "custom/microphone", "backlight", "network", "tray", "cpu", "memory", "battery"],
+    "modules-right": ["tray", "pulseaudio", "custom/microphone", "backlight", "network", "cpu", "memory", "battery"],
 
     "network": {
         "format-wifi": "WIFI: {signalStrength}%",
@@ -45,7 +45,7 @@
         "on-scroll-up": "brightnessctl set 5%-"
     },
     "tray": {
-    "icon-size": 16,
-    "spacing": 8
+        "icon-size": 16,
+        "spacing": 8
     }
 }
