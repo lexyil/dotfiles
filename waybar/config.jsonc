@@ -4,7 +4,7 @@
     "height": 24,
     "modules-left": ["sway/workspaces", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "pulseaudio", "custom/microphone", "backlight", "network", "cpu", "memory", "battery"],
+    "modules-right": ["group/tray-group", "pulseaudio", "custom/microphone", "backlight", "network", "cpu", "memory", "battery"],
 
     "network": {
         "format-wifi": "WIFI: {signalStrength}%",
@@ -31,7 +31,6 @@
     "battery": {
         "format": "BAT: {capacity}%"
     },
-
     "pulseaudio": {
         "format": "VOL: {volume}%",
         "format-muted": "VOL: muted",
@@ -43,6 +42,19 @@
         "format": "BRI: {percent}%",
         "on-scroll-down": "brightnessctl set 5%+",
         "on-scroll-up": "brightnessctl set 5%-"
+    },
+    "group/tray-group": {
+    "orientation": "inherit",
+    "drawer": {
+        "transition-duration": 400,
+        "children-class": "tray-drawer",
+        "transition-left-to-right": false
+    },
+    "modules": ["custom/tray-toggle", "tray"]
+    },
+    "custom/tray-toggle": {
+        "format": "▸",
+        "tooltip": false
     },
     "tray": {
         "icon-size": 16,
